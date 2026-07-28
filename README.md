@@ -32,7 +32,7 @@ tools such as **Prisma Cloud** — the same "shift-left" idea applied to Infrast
 | 2 | S3 bucket with **no encryption** | **SSE (AES256)** enabled by default |
 | 3 | Security group open to **0.0.0.0/0** on port 22 | Ingress restricted to a **variable CIDR** |
 | 4 | **Unencrypted** EBS volume | EBS volume with **encryption enabled** |
-| 5 | No access logging / versioning on the bucket | **Versioning** enabled |
+| 5 | No **versioning** on the bucket | **Versioning** enabled |
 
 ---
 
