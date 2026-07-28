@@ -1,0 +1,10 @@
+# Checkov configuration
+# Docs: https://www.checkov.io/2.Basics/Configuring%20Checkov.html
+framework:
+  - terraform
+directory:
+  - .
+compact: true
+quiet: true
+# Keep the demo non-blocking so the intentionally-insecure findings stay visible.
+soft-fail: true
